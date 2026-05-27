@@ -90,6 +90,8 @@ const navLinks = [
 
 const MIN_CARD_WIDTH = 42;
 const MIN_CARD_HEIGHT = 36;
+const CARD_ENTRY_BASE_DELAY = 0.28;
+const CARD_ENTRY_STEP_DELAY = 0.1;
 
 type EditAction =
   | {
@@ -191,6 +193,7 @@ function WidgetFrame({
   const base = basePositions[cardKey] || { x: 0, y: 0 };
   const x = styleData.offsetX ?? base.x;
   const y = styleData.offsetY ?? base.y;
+  const entryDelay = editing ? 0 : CARD_ENTRY_BASE_DELAY + (styleData.order || 0) * CARD_ENTRY_STEP_DELAY;
 
   const stopAction = (event: React.PointerEvent<HTMLDivElement>) => {
     if (actionRef.current?.pointerId === event.pointerId) {
@@ -201,8 +204,9 @@ function WidgetFrame({
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.76 }}
+      initial={{ opacity: 0, scale: 0.6 }}
       animate={{ opacity: 1, scale: 1 }}
+      transition={{ delay: entryDelay, duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
       whileHover={{ scale: editing ? 1 : 1.025 }}
       className={cn("absolute", editing && "z-40")}
       style={{
