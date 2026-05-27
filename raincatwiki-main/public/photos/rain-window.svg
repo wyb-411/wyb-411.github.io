@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
-  <rect width="420" height="300" rx="22" fill="#dff7ef"/>
-  <rect x="40" y="38" width="340" height="188" rx="24" fill="#ffffffa6" stroke="#fff" stroke-width="6"/>
-  <path d="M125 42v182M210 42v182M295 42v182M42 132h336" stroke="#bddbd9" stroke-width="6"/>
-  <path d="M70 80c21 20 45 20 66 0 20 20 45 20 66 0 20 20 45 20 66 0 20 20 45 20 66 0" fill="none" stroke="#35bfab" stroke-width="6" stroke-linecap="round"/>
-  <text x="210" y="264" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="24" fill="#334f52">rainy morning</text>
-</svg>
