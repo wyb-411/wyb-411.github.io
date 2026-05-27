@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rain-window",
+    "url": "/photos/rain-window.svg",
+    "date": "2026-05-20",
+    "description": "窗边下雨，今天适合慢慢写字。",
+    "rotate": -5,
+    "x": 18,
+    "y": 16
+  },
+  {
+    "id": "cat-desk",
+    "url": "/photos/cat-desk.svg",
+    "date": "2026-05-12",
+    "description": "一只守着桌面的像素小猫。",
+    "rotate": 4,
+    "x": 52,
+    "y": 28
+  }
+]

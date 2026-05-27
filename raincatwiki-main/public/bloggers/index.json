@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lvy-neko",
+    "name": "lvy-neko",
+    "avatar": "/images/avatar/raincat.svg",
+    "url": "https://lvyovo-wiki.tech/",
+    "stars": 5,
+    "description": "参考站，清新治愈毛玻璃风。",
+    "category": "blog"
+  },
+  {
+    "id": "rain-friend",
+    "name": "Rain Friend",
+    "avatar": "/images/art/cat-desk.svg",
+    "url": "#",
+    "stars": 4,
+    "description": "占位友链，后续可在仓库 JSON 中替换。",
+    "category": "link"
+  }
+]
