@@ -24,17 +24,17 @@
   ],
   "artImages": [
     {
-      "id": "rain-window",
-      "url": "/images/art/rain-window.svg",
-      "label": "Rain Window"
+      "id": "art-mpns9k5r-ddru89",
+      "url": "/images/site/art-a6dcc109b9e24bb4.png",
+      "label": "858f245b40eb9342b3867b09bff07ecf"
     },
     {
-      "id": "cat-desk",
-      "url": "/images/art/cat-desk.svg",
-      "label": "Cat Desk"
+      "id": "art-mpns9mf4-su47qh",
+      "url": "/images/site/art-2f9996602c097145.png",
+      "label": "ec744a6729dd0be944103f244e80115c"
     }
   ],
-  "currentArtImageId": "rain-window",
+  "currentArtImageId": "art-mpns9k5r-ddru89",
   "socialLinks": [
     {
       "id": "github",
