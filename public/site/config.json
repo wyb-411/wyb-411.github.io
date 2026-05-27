@@ -16,58 +16,17 @@
     "colorCard": "#ffffff66",
     "colorArticle": "#ffffffcc"
   },
-  "backgroundColors": [
-    "#dff7ef",
-    "#fff7cc",
-    "#dff4ff",
-    "#f6e7ff"
-  ],
+  "backgroundColors": ["#dff7ef", "#fff7cc", "#dff4ff", "#f6e7ff"],
   "artImages": [
-    {
-      "id": "rain-window",
-      "url": "/images/art/rain-window.svg",
-      "label": "Rain Window"
-    },
-    {
-      "id": "cat-desk",
-      "url": "/images/art/cat-desk.svg",
-      "label": "Cat Desk"
-    }
+    { "id": "rain-window", "url": "/images/art/rain-window.svg", "label": "Rain Window" },
+    { "id": "cat-desk", "url": "/images/art/cat-desk.svg", "label": "Cat Desk" }
   ],
   "currentArtImageId": "rain-window",
   "socialLinks": [
-    {
-      "id": "github",
-      "label": "GitHub",
-      "url": "https://github.com/wyb-411/rain-wiki",
-      "icon": "github",
-      "order": 1,
-      "enabled": true
-    },
-    {
-      "id": "bilibili",
-      "label": "Bilibili",
-      "url": "https://www.bilibili.com/",
-      "icon": "bilibili",
-      "order": 2,
-      "enabled": true
-    },
-    {
-      "id": "xiaohongshu",
-      "label": "小红书",
-      "url": "https://www.xiaohongshu.com/",
-      "icon": "xiaohongshu",
-      "order": 3,
-      "enabled": true
-    },
-    {
-      "id": "mail",
-      "label": "邮箱",
-      "url": "mailto:hello@example.com",
-      "icon": "mail",
-      "order": 4,
-      "enabled": true
-    }
+    { "id": "github", "label": "GitHub", "url": "https://github.com/wyb-411/rain-wiki", "icon": "github", "order": 1, "enabled": true },
+    { "id": "bilibili", "label": "Bilibili", "url": "https://www.bilibili.com/", "icon": "bilibili", "order": 2, "enabled": true },
+    { "id": "xiaohongshu", "label": "小红书", "url": "https://www.xiaohongshu.com/", "icon": "xiaohongshu", "order": 3, "enabled": true },
+    { "id": "mail", "label": "邮箱", "url": "mailto:hello@example.com", "icon": "mail", "order": 4, "enabled": true }
   ],
   "hideEditButton": false,
   "isCachePem": false,
